@@ -63,6 +63,7 @@ body {
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
 }
 
 nav a img {
@@ -90,20 +91,25 @@ h1 {
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   z-index: 3;
- 
+}
+
+h1 img {
+	width: 100%;
 }
 
 .bg-video-wrap p {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translateY(-80%) translateX(-50%);
-  -webkit- transform: translateY(-80%) translateX(-50%);
-  z-index: 3;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  opacity: 0.8;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateY(-80%) translateX(-50%);
+    -webkit- transform: translateY(-80%) translateX(-50%);
+    z-index: 3;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    opacity: 0.8;
+    text-align: center;
+    width: 100%;
 }
 
 h2 {
