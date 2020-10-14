@@ -208,6 +208,15 @@ h3 {
 	background-color: rgba(243,243,243,0.8);
 }
 
+#portfolio {
+	padding: 20px 0 50px;
+	width: 100%;
+}
+
+#portfolio a {
+	width: 100%;
+}
+
 .form-group {
 	margin: 0 auto;
 	width: 500px;
